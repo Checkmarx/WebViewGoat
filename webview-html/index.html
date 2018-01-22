@@ -1,0 +1,22 @@
+<html>
+	<head>
+	<title>Your QRCode brought you here!</title>
+
+	<script>
+		function flashOff() {
+			Android.flashPowerOff();
+		}
+
+		function loadLinkPage() {
+		document.write("<iframe width=95% height=100% src='" + Android.getURL() + "'/>");
+		}
+	</script>
+	</head>
+	<body onload="flashOff()">
+		<center><br>
+		<h5>Your QRCode brought you here:</h5>
+		<script>loadLinkPage()</script>
+		</center>
+	</body>
+</html>
+
