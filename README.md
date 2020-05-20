@@ -17,5 +17,5 @@ For that you need to define the following:
 
 2. Compile and install on your device!
 
-3. ? :
+3. ? : :
 
